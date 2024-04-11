@@ -81,11 +81,13 @@ I split the dataset into training and testing sets, allocating 80% for training 
 In this dataset, there's an imbalance between the classes of the dependent variable (Existing Customers and Attributed Customers). This can affect the model's ability to predict customer status accurately. To address this, I balanced the classes using the SMOTE technique. Unlike other techniques, SMOTE adds data to the minority class based on the closest neighbors of the data points, resulting in a more varied dataset without reducing information.
 
 **STEP- III**
+
 In this analysis, I've utilized k-means clustering to segment the data based on its features.
 
 Segmentation Model: I Used clustering techniques ( K-Means) to segment the customers based on their credit card usage and demographic data. Also using elbow method Determine the optimal number of clusters.
 
 **STEP-IV**
+
 In the final step, I used two different algorithms for modeling: Logistic Regression and Random Forest Classifier.
 
 For the Logistic Regression model, it correctly predicted 244 cases of Existing Customers and 134 cases of Attributed Customers, but it also made 448 prediction errors. Overall, the model achieved an Accuracy score of 77%, a Precision score of 67%, and a Recall score of 76%.
