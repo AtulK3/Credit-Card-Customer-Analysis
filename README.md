@@ -4,26 +4,47 @@
 
 _____________________________________________________________________________________________________________________________________________
 In this repository, I do machine learning modeling that can later be used to predict customer churn on credit card services. Here I use the bankchurn.csv dataset obtained from Kaggle. The case in this dataset is a binary classification with an unbalanced proportion of target variables, namely 16.1% for the negative class and the rest for the positive class. In this dataset there are several features that are used as parameters to make predictions, including:
+
 •	CLIENTNUM: customer account number.
+
 •	Attrition_Flag: customer status (Existing and Attrited).
+
 •	Customer_Age: age of the customer.
+
 •	Gender: gender of customer (M for male and F for female).
+
 •	Dependent_count: number of dependents of customers.
+
 •	Education_Level: customer education level (Uneducated, High School, Graduate, College, Post-Graduate, Doctorate, and Unknown).
+
 •	Marital_Status: customer's marital status (Single, Married, Divorced, and Unknown).
+
 •	Income_Category: customer income interval category (Less than $40K, $40K-$60k, $60K-$80K, $80K-$120K, $120K +, and Unknown).
+
 •	Card_Category: type of card used (Blue, Silver, Gold, and Platinum).
+
 •	Months_on_Book: period of being a customer (in months).
+
 •	Total_Relationship_Count: the number of products used by customers in the bank.
+
 •	Months_Inactive_12_mon: period of inactivity for the last 12 months.
+
 •	Contacts_Count_12_mon: the number of interactions between the bank and the customer in the last 12 months.
+
 •	Credit_Limit: credit card transaction nominal limit in one period.
+
 •	Total_Revolving_Bal: total funds used in one period.
+
 •	Avg_Open_To_Buy: the difference between the credit limit set for the cardholder's account and the current balance.
+
 •	Total_Amt_Chng_Q4_Q1: increase in customer transaction nominal between quarter 4 and quarter 1.
+
 •	Total_Trans_Amt: total nominal transaction in the last 12 months.
+
 •	Total_Trans_Ct: the number of transactions in the last 12 months.
+
 •	Total_Ct_Chng_Q4_Q1: the number of customer transactions increased between quarter 4 and quarter 1.
+
 •	Avg_Utilization_Ratio: percentage of credit card usage.
 ___________________________________________________________________________________________________________________________________________________________________________
 
